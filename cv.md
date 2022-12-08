@@ -1,28 +1,28 @@
-# Yuriy Panteleev
+# **Yuriy Panteleev**
 
 # Profile
 
-**I am 37 years old. After university, I worked as a sales manager for bar and commercial equipment**
-**during a year. After that, and until September 2022, I worked in the field of fire-fighting automation**
-**in positions: Setup Engineer, Section Chief, Project Manager. My main strengths - achievements of goals,**
-**multitasking, and good team work.**
+*I am 37 years old. After university, I worked as a sales manager for bar and commercial equipment*
+*during a year. After that, and until September 2022, I worked in the field of fire-fighting automation*
+*in positions: Setup Engineer, Section Chief, Project Manager. My main strengths - achievements of goals,*
+*multitasking, and good team work.*
 
 # My Contacts:
 
-* ***Phone:*** **+375 29 636-27-51**
-* ***E-mail:*** [**yurik8585@gmail.com**](**yurik8585@gmail.com**)
-* ***GitHub:*** [**Yuriy85**](https://github.com/Yuriy85)
-* ***Telegram*** [**@I_bexa**](https://t.me/I_bexa)
-* ***Discord*** **Ibexa#7034**
+* ***Phone:*** *+375 29 636-27-51*
+* ***E-mail:*** *yurik8585@gmail.com*
+* ***GitHub:*** [*Yuriy85*](https://github.com/Yuriy85)
+* ***Telegram*** [*@I_bexa*](https://t.me/I_bexa)
+* ***Discord*** *Ibexa#7034*
 
 # My Skills:
 
-* **Python (Basic)**
-* **Git/Github**
-* **HTML (In progress)**
-* **CSS (In progress)**
-* **JavaScript (In progress)**
-* **English A2 - B1 (C2 in progress)**
+* *Python (Basic)*
+* *Git/Github*
+* *HTML (In progress)*
+* *CSS (In progress)*
+* *JavaScript (In progress)*
+* *English A2 - B1 (C2 in progress :))*
 
 # Code Examples
 
@@ -51,6 +51,6 @@ print(quick_merge(numbers1, numbers2))
 
 # Education:
 
-* **Mogilev State University of Food**
-* **Stepik**
-* **RSSchool (In progress)**
+* *Mogilev State University of Food*
+* *Stepik*
+* *RSSchool (In progress)*
