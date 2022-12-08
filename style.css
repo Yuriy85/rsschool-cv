@@ -1,0 +1,9 @@
+html, body {
+    font-family: Arial;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+table.border th {
+    background: #c5b4b4;
+}
