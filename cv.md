@@ -51,6 +51,6 @@ print(quick_merge(numbers1, numbers2))
 
 # Education:
 
-* *Mogilev State University of Food*
+* *Mogilev State University of Food 2002 - 2007*
 * *Stepik*
 * *RSSchool (In progress)*
