@@ -7,62 +7,87 @@
     <title>CV Yuriy Panteleev</title>
 </head>
 <body>
-    <table>
-        <tr>
-            <td><img src="photo.jpg" alt="Oops" width="200"></td>
-            <td>
-                <h1>Yuriy Panteleev</h1>
-                <p>
-                    I am 37 years old. After university, I worked as a sales manager for bar and commercial
-                    equipment during a year. After that, and until September 2022, I worked in the field of
-                    fire-alarm automation as Setup Engineer, Section Chief, Project Manager. My main strengths
-                    are achievement of goals, multitasking, and good team work.
-                </p>
-            </td>
-        </tr>
-    </table>
-
-    <hr>
-
-    <h2>My Skills</h2>
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>Git/Github</li>
-        <li>Python (Basic)</li>
-    </ul>
-
-    <h2>Education</h2>
-    <ul>
-        <li>Mogilev State University of Food 2002 - 2007</li>
-        <li>RSSchool</li>
-        <li>Stepik</li>
-    </ul>
-
-    <h2>Languages</h2>
-    <ul>
-        <li>Belarussian is my native language</li>
-        <li>Russian is my native language</li>
-        <li>English A2 (C2 in progress)</li>
-    </ul>
-
-    <h2>Code Example</h2>
-    <code>
-        <form action="https://yuriy85.github.io/rsschool-cv/" target="_blank">
-            <label for="text">Where is my cv?</label>
-            <textarea name="title" id="text" cols="15" rows="2"></textarea>
-            <input type="submit" value="GO">
-        </form>
-    </code>
-
-    <h2>My Contacts</h2>
-    <ul>
-        <li>Phone: +375 29 636-27-51</li>
-        <li>E-mail: yurik8585@gmail.com</li>
-        <li>Discord: Ibexa#7034</li>
-        <li><a href="https://t.me/I_bexa" target="_blank">Telegramm</a></li>
-        <li><a href="https://github.com/Yuriy85" target="_blank">GitHub</a></li>
-    </ul>
+    <header>
+        <table>
+            <tr>
+                <nav>
+                    <td><a href="#skills">My Skills</a></td>
+                    <td><a href="#edu">Education</a></td>
+                    <td><a href="#len">Languages</a></td>
+                    <td><a href="#proj">My projects</a></td>
+                    <td><a href="#code">Code Example</a></td>
+                    <td><a href="#contact">My Contacts</a></td>
+                </nav>
+            </tr>
+        </table>
+        <hr>
+    </header>
+    <main>
+        <table>
+            <tr>
+                <td><img src="photo.jpg" alt="Oops" width="200"></td>
+                <td>
+                    <h1>Yuriy Panteleev</h1>
+                    <p>
+                        I am 37 years old. After university, I worked as a sales manager for bar and commercial
+                        equipment during a year. After that, and until September 2022, I worked in the field of
+                        fire-alarm automation as Setup Engineer, Section Chief, Project Manager. My main strengths
+                        are achievement of goals, multitasking, and good team work.
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <hr>
+        <h2 id="skills">My Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Git/Github</li>
+            <li>Python (Basic)</li>
+        </ul>
+        <h2 id="edu">Education</h2>
+        <ul>
+            <li>Mogilev State University of Food 2002 - 2007</li>
+            <li>RSSchool</li>
+            <li>Stepik</li>
+        </ul>
+        <h2 id="len">Languages</h2>
+        <ul>
+            <li>Belarussian is my native language</li>
+            <li>Russian is my native language</li>
+            <li>English A2 (C2 in progress)</li>
+        </ul>
+        <h2 id="proj">My projects</h2>
+        <ol>
+            <li><a href="https://yuriy85.github.io/rsschool-cv/cv" target="_blank">RSSchool CV#1</a></li>
+            <li><a href="https://yuriy85.github.io/rsschool-cv/" target="_blank">RSSchool CV#2(3)</a></li>
+        </ol>
+        <h2 id="code">Code Example</h2>
+        <pre>
+            <code>
+                while p1 < len(list1) and p2 < len(list2):
+                    if list1[p1] <= list2[p2]:
+                        result.append(list1[p1])
+                        p1 += 1
+                    else:
+                        result.append(list2[p2])
+                        p2 += 1
+            </code>
+        </pre>
+        <h2 id="contact">My Contacts</h2>
+        <ul>
+            <li>Phone: +375 29 636-27-51</li>
+            <li>E-mail: yurik8585@gmail.com</li>
+            <li>Discord: Ibexa#7034</li>
+            <li><a href="https://t.me/I_bexa" target="_blank">Telegramm</a></li>
+            <li><a href="https://github.com/Yuriy85" target="_blank">GitHub</a></li>
+        </ul>
+    </main>
+    <footer>
+        <a href="https://rs.school/js-stage0/" target="_blank"><img src="rs.svg" alt="Oops" width="100"></a>
+        <a href="https://github.com/Yuriy85" target="_blank"><img src="git.svg" alt="Oops" width="40"></a>
+        <img src="2022.svg" alt="Oops" width="125">
+    </footer>
 </body>
 </html>
