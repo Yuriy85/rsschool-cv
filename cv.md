@@ -3,8 +3,8 @@
 # Profile
 
 *I am 37 years old. After university, I worked as a sales manager for bar and commercial equipment*
-*during a year. After that, and until September 2022, I worked in the field of fire-fighting automation*
-*in positions: Setup Engineer, Section Chief, Project Manager. My main strengths - achievements of goals,*
+*during a year. After that, and until September 2022, I worked in the field of fire-alarm automation*
+*as Setup Engineer, Section Chief, Project Manager. My main strengths are achievement of goals,*
 *multitasking, and good team work.*
 
 # My Contacts:
