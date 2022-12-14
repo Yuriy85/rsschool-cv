@@ -7,37 +7,32 @@
     <title>CV Yuriy Panteleev</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <div class="main">
-      <header>
-        <nav>
-          <div class="header">
-            <div class="button"><a href="index.html">Home</a></div>
-            <div class="button"><a href="#skills">My Skills</a></div>
-            <div class="button"><a href="#edu">Education</a></div>
-            <div class="button"><a href="#len">Languages</a></div>
-            <div class="button"><a href="#proj">My projects</a></div>
-            <div class="button"><a href="#code">Code Example</a></div>
-            <div class="button"><a href="#contact">My Contacts</a></div>
-          </div>
-        </nav>
-      </header>
-      <main>
-        <div class="header">
-          <img src="photo.jpg" alt="Oops" class="photo" />
-          <div class="data">
-            <h1>Yuriy Panteleev</h1>
-            <p>
-              I am 37 years old. After university, I worked as a sales manager
-              for bar and commercial equipment during a year. After that, and
-              until September 2022, I worked in the field of fire-alarm
-              automation as Setup Engineer, Section Chief, Project Manager. My
-              main strengths are achievement of goals, multitasking, and good
-              team work.
-            </p>
-          </div>
-        </div>
-        <div class="left">
+  <body class="body">
+    <nav class="nav">
+      <div class="button"><a href="index.html">Home</a></div>
+      <div class="button"><a href="#skills">My Skills</a></div>
+      <div class="button"><a href="#edu">Education</a></div>
+      <div class="button"><a href="#len">Languages</a></div>
+      <div class="button"><a href="#proj">My projects</a></div>
+      <div class="button"><a href="#code">Code Example</a></div>
+      <div class="button"><a href="#contact">My Contacts</a></div>
+    </nav>
+    <header class="header">
+      <img src="photo.jpg" alt="photo" class="photo" />
+      <div class="info">
+        <h1 class="glava">Yuriy Panteleev</h1>
+        <p class="paragraf">
+          I am 37 years old. After university, I worked as a sales manager for
+          bar and commercial equipment during a year. After that, and until
+          September 2022, I worked in the field of fire-alarm automation as
+          Setup Engineer, Section Chief, Project Manager. My main strengths are
+          achievement of goals, multitasking, and good team work.
+        </p>
+      </div>
+    </header>
+    <main class="main">
+      <div class="skilleduc">
+        <div class="block">
           <h2 id="skills">My Skills</h2>
           <ul>
             <li>HTML</li>
@@ -47,7 +42,7 @@
             <li>Python (Basic)</li>
           </ul>
         </div>
-        <div class="center">
+        <div class="block">
           <h2 id="edu">Education</h2>
           <ul>
             <li>Mogilev State University of Food 2002 - 2007</li>
@@ -55,7 +50,7 @@
             <li>Stepik</li>
           </ul>
         </div>
-        <div class="right">
+        <div class="block">
           <h2 id="len">Languages</h2>
           <ul>
             <li>Belarussian is my native language</li>
@@ -63,7 +58,9 @@
             <li>English A2 (C2 in progress)</li>
           </ul>
         </div>
-        <div class="left">
+      </div>
+      <div class="procod">
+        <div class="block">
           <h2 id="proj">My projects</h2>
           <ol>
             <li>
@@ -78,41 +75,39 @@
             </li>
           </ol>
         </div>
-        <div class="center">
+        <div class="block">
           <h2 id="code">Code Example</h2>
           <pre><code>
-    function slot(qaz, wsx)
-    {
-        const slot = qaz/(wsx * wsx);
-        return slot >= 5 ? 'max': slot >= 10 ?
-        'Normal': slot >= 15 ? 'min': 'nol';
-    }
+function slot(qaz, wsx)
+{
+const slot = qaz/(wsx * wsx);
+return slot >= 5
+'Normal': slot >= 15
+}
       </code></pre>
         </div>
-        <div class="right">
-          <h2 id="contact">My Contacts</h2>
-          <ul>
-            <li>Phone: +375 29 636-27-51</li>
-            <li>E-mail: yurik8585@gmail.com</li>
-            <li>Discord: Ibexa#7034</li>
-            <li><a href="https://t.me/I_bexa" target="_blank">Telegramm</a></li>
-            <li>
-              <a href="https://github.com/Yuriy85" target="_blank">GitHub</a>
-            </li>
-          </ul>
-        </div>
-      </main>
-      <div class="button">
-        <footer>
-          <a href="https://rs.school/js-stage0/" target="_blank"
-            ><img src="rs.svg" alt="Oops" class="rs"
-          /></a>
-          <a href="https://github.com/Yuriy85" target="_blank"
-            ><img src="git.svg" alt="Oops" class="git"
-          /></a>
-          <img src="2022.svg" alt="Oops" class="god" />
-        </footer>
       </div>
-    </div>
+      <div class="block">
+        <h2 id="contact">My Contacts</h2>
+        <ul>
+          <li>Phone: +375 29 636-27-51</li>
+          <li>E-mail: yurik8585@gmail.com</li>
+          <li>Discord: Ibexa#7034</li>
+          <li><a href="https://t.me/I_bexa" target="_blank">Telegramm</a></li>
+          <li>
+            <a href="https://github.com/Yuriy85" target="_blank">GitHub</a>
+          </li>
+        </ul>
+      </div>
+    </main>
+    <footer class="footer">
+      <a href="https://rs.school/js-stage0/" target="_blank"
+        ><img src="rs.svg" alt="Oops" class="rs"
+      /></a>
+      <a href="https://github.com/Yuriy85" target="_blank"
+        ><img src="git.svg" alt="Oops" class="git"
+      /></a>
+      <img src="2022.svg" alt="Oops" class="god" />
+    </footer>
   </body>
 </html>
