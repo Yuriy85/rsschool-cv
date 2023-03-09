@@ -29,21 +29,14 @@
 # Code Examples
 
 ```
-const btnActive = (event) => {
-  serviceButtons.forEach((element) => {
-    const isThisBtn = event.target === element ? true : false;
-    const btnActive = activeBtns.indexOf(element);
+const menuShowHide = (event) => {
+  const burgerBtn = document.querySelector(".burger");
+  const burgerMenu = document.querySelector(".ul_nav");
 
-    isThisBtn & (btnActive === -1) & (activeBtns.length < 2)
-      ? activeBtns.push(element)
-      : isThisBtn & (btnActive === -1)
-      ? activeBtns.push(element) & activeBtns.shift()
-      : isThisBtn & (btnActive === 0)
-      ? activeBtns.shift()
-      : isThisBtn
-      ? activeBtns.pop()
-      : null;
-  });
+  event.target === burgerBtn || event.target === burgerMenu
+    ? burgerMenu.classList.add("ul_nav_show")
+    : burgerMenu.classList.remove("ul_nav_show");
+};
 ```
 
 # Education:
