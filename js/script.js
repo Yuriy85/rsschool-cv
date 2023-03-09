@@ -12,7 +12,10 @@ html.addEventListener("click", (event) => {
   blur(event);
   certificate(event);
 });
-window.addEventListener("load", ticker);
+window.addEventListener("load", () => {
+  ticker();
+  window.location.hash = "";
+});
 
 // Blur option
 const blur = (event) => {
@@ -26,9 +29,12 @@ const blur = (event) => {
   blocks.forEach(
     (e, i) => e.classList.add("blur") & buttons[i].classList.remove("active")
   );
+  const location = (i) => (window.location.hash = `${i}`);
   buttons.forEach((e, i) => {
     return event.target === e
-      ? blocks[i].classList.toggle("blur") & e.classList.add("active")
+      ? blocks[i].classList.toggle("blur") &
+          e.classList.add("active") &
+          location(i)
       : null;
   });
 };

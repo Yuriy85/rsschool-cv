@@ -12,7 +12,7 @@
 * ***Phone:*** *+375 29 636-27-51*
 * ***E-mail:*** *yurik8585@gmail.com*
 * ***GitHub:*** [*Yuriy85*](https://github.com/Yuriy85)
-* ***Telegram*** [*@I_bexa*](https://t.me/I_bexa)
+* ***Telegram*** [*Yuriy8585*](https://t.me/Yuriy8585)
 * ***Discord*** *Yuriy85#7034*
 
 # My Skills:
