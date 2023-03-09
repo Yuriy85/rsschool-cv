@@ -24,7 +24,7 @@ _multitasking, and good team work._
 - _Webpack_
 - _AngularJS (In progress)_
 - _Python (Basic)_
-- _English A2 - B1 (C2 in progress :))_
+- _English A2 - B1 (C2 in progress :))
 
 # Code Examples
 
