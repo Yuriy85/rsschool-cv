@@ -34,6 +34,7 @@ footer {
 }
 code {
   position: absolute;
+  transition: left 5s linear;
 }
 .footer-box {
   display: flex;
