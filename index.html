@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV Yuriy Panteleev</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="assets/svg/eyeglasses.svg" type="image/svg+xml">
+</head>
+
+<body>
+  <header>
+    <ul class="nav">
+      <li class="buttons"><button>About me</button></li>
+      <li class="buttons"><button>My Skills</button></li>
+      <li class="buttons"><button>Education</button></li>
+      <li class="buttons"><button>Languages</button></li>
+      <li class="buttons"><button>My projects</button></li>
+      <li class="buttons"><button>Code Example</button></li>
+      <li class="buttons"><button>My Contacts</button></li>
+    </ul>
+  </header>
+  <main>
+    <div class="main-info" id="0">
+      <img src="assets/img/photo.jpg" alt="photo" class="photo">
+      <div class="info">
+        <h1>Yuriy Panteleev</h1>
+        <div class="about">
+          <p class="p1">
+            I am 37 years old. After university, I worked as a sales manager for
+            bar and commercial equipment during a year. After that, and until
+            September 2022, I worked in the field of fire-alarm automation as
+            Setup Engineer, Section Chief, Project Manager. My main strengths are
+            achievement of goals, multitasking, and good team work.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="block-box1">
+      <div class="block" style="width: 360px; flex-grow: 0;" id="1">
+        <h2 id="skills">My Skills</h2>
+        <div class="skill-box">
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python (basic)</li>
+          </ul>
+          <ul>
+            <li>Git/Github</li>
+            <li>Webpack</li>
+            <li>AngularJS (In progress)</li>
+          </ul>
+        </div>
+      </div>
+      <div class="block" style="width: 265px;" id="2">
+        <h2 id="edu">Education</h2>
+        <ul>
+          <li class="a">Mogilev State University of Food (click me)</li>
+          <li class="a">RSSchool (click me)</li>
+          <li class="a">Stepik (click me)</li>
+          <li>Self study</li>
+        </ul>
+      </div>
+      <div class="block" id="3">
+        <h2 id="len">Languages</h2>
+        <ul>
+          <li>Belarussian is my native language</li>
+          <li>Russian is my native language</li>
+          <li>English A2 (C2 in progress:))</li>
+        </ul>
+      </div>
+    </div>
+    <div class="block-box2">
+      <div class="block" style="width: 360px; flex-grow: 0;" id="4">
+        <h2 id="proj">My projects</h2>
+        <div></div>
+      </div>
+      <div class="block" style="min-height:240px;" id="5">
+        <h2 id="code">Code Example</h2>
+        <pre><code>
+const menuShowHide = (event) => {
+  const burgerBtn = document.querySelector(".burger");
+  const burgerMenu = document.querySelector(".ul_nav");
+
+  event.target === burgerBtn || event.target === burgerMenu
+    ? burgerMenu.classList.add("ul_nav_show")
+    : burgerMenu.classList.remove("ul_nav_show");
+};
+      </code></pre>
+      </div>
+    </div>
+    <div class="block" style="text-align: center;" id="6">
+      <h2 id="contact">My Contacts</h2>
+      <ul style="list-style-type: none; padding-inline-start: 0px;">
+        <li><a href="mailto:yurik8585@gmail.com" target="_blank">E-mail: yurik8585@gmail.com (click me)</a></li>
+        <li><a href="tel:+375296362751" target="_blank">Phone: +375 29 636-27-51 (click me)</a></li>
+        <li>Discord: Yuriy85#7034</li>
+        <li><a href="https://t.me/Yuriy8585" target="_blank">Telegramm (click me)</a></li>
+        <li>
+          <a href="https://github.com/Yuriy85" target="_blank">GitHub (click me)</a>
+        </li>
+      </ul>
+    </div>
+  </main>
+  <footer>
+    <div class="footer-box">
+      <a href="https://rs.school/index.html" target="_blank"><img src="assets/svg/rs.svg" alt="Oops" class="rs"></a>
+      <a href="https://github.com/Yuriy85" target="_blank"><img src="assets/svg/git.svg" alt="Oops" class="git"></a>
+      <img src="assets/svg/2022.svg" alt="Oops" class="god">
+    </div>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
