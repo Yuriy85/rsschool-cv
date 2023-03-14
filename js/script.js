@@ -56,24 +56,33 @@ const certificate = (event) => {
 
 // Ticker option
 function ticker() {
-  if (codeBlock.offsetWidth < 535) {
-    setTimeout(ticker, 50);
-  } else {
-    setTimeout(ticker, 2000);
-    code.style.left = "5px";
-    codePosition = 0;
-    return;
-  }
+  const setBlockPosition = (i) => (code.style.left = `${i}px`);
+  console.log(1);
 
-  if (codePosition !== -1) {
-    code.style.left = `${code.offsetLeft - 1}px`;
-    if (codeBlock.offsetWidth - 535 >= code.offsetLeft) {
-      codePosition = -1;
+  if (codeBlock.offsetWidth < 535) {
+    if (codePosition !== 1) {
+      setBlockPosition(5);
+      if (code.offsetLeft >= 5) {
+        codePosition = 1;
+      }
+    } else if (codePosition !== -1) {
+      setBlockPosition(codeBlock.offsetWidth - 535);
+      if (codeBlock.offsetWidth - 535 >= code.offsetLeft) {
+        codePosition = -1;
+      }
     }
-  } else if (codePosition !== 1) {
-    code.style.left = `${code.offsetLeft + 1}px`;
-    if (code.offsetLeft >= 5) {
-      codePosition = 1;
+  } else {
+    if (codePosition !== 2) {
+      setBlockPosition(5);
+      if (code.offsetLeft <= 5) {
+        codePosition = 2;
+      }
+    } else if (codePosition !== 0) {
+      setBlockPosition(codeBlock.offsetWidth - 535);
+      if (codeBlock.offsetWidth - 535 <= code.offsetLeft) {
+        codePosition = 0;
+      }
     }
   }
+  setTimeout(ticker, 500);
 }
